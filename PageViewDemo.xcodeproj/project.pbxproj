@@ -14,6 +14,7 @@
 		8407A4F91B6E3E52009D8279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407A4F81B6E3E52009D8279 /* Images.xcassets */; };
 		8407A4FC1B6E3E52009D8279 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8407A4FA1B6E3E52009D8279 /* LaunchScreen.xib */; };
 		8407A5081B6E3E52009D8279 /* PageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407A5071B6E3E52009D8279 /* PageViewDemoTests.m */; };
+		8407A5131B6E40BC009D8279 /* DRPageContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407A5121B6E40BC009D8279 /* DRPageContentVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8407A5011B6E3E52009D8279 /* PageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8407A5061B6E3E52009D8279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8407A5071B6E3E52009D8279 /* PageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewDemoTests.m; sourceTree = "<group>"; };
+		8407A5111B6E40BC009D8279 /* DRPageContentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPageContentVC.h; sourceTree = "<group>"; };
+		8407A5121B6E40BC009D8279 /* DRPageContentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPageContentVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8407A4F81B6E3E52009D8279 /* Images.xcassets */,
 				8407A4FA1B6E3E52009D8279 /* LaunchScreen.xib */,
 				8407A4EB1B6E3E52009D8279 /* Supporting Files */,
+				8407A5111B6E40BC009D8279 /* DRPageContentVC.h */,
+				8407A5121B6E40BC009D8279 /* DRPageContentVC.m */,
 			);
 			path = PageViewDemo;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				8407A4F41B6E3E52009D8279 /* ViewController.m in Sources */,
 				8407A4F11B6E3E52009D8279 /* AppDelegate.m in Sources */,
 				8407A4EE1B6E3E52009D8279 /* main.m in Sources */,
+				8407A5131B6E40BC009D8279 /* DRPageContentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
